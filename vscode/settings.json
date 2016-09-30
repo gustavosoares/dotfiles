@@ -1,0 +1,8 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "update.channel": "none",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 3000,
+    "terminal.integrated.shellArgs.linux": ["-l"],
+    "terminal.integrated.shellArgs.osx": ["-l"]
+}
