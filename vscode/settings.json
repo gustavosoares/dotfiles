@@ -1,8 +1,11 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "update.channel": "none",
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 3000,
-    "terminal.integrated.shellArgs.linux": ["-l"],
-    "terminal.integrated.shellArgs.osx": ["-l"]
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "php.validate.enable": true,
+    "php.validate.executablePath": "/usr/local/bin/php",
+    "php.validate.run": "onSave",
+    "terminal.integrated.shellArgs.linux": ["-l"]
 }
