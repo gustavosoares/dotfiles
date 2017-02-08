@@ -7,5 +7,6 @@
     "php.validate.enable": true,
     "php.validate.executablePath": "/usr/local/bin/php",
     "php.validate.run": "onSave",
-    "terminal.integrated.shellArgs.linux": ["-l"]
+    "terminal.integrated.shellArgs.linux": ["-l"],
+    "terminal.integrated.shellArgs.osx": ["-l"]
 }
