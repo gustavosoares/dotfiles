@@ -6,7 +6,7 @@
 # Set architecture flags
 export ARCHFLAGS="-arch x86_64"
 # Ensure user-installed binaries take precedence
-export PATH=/usr/local/bin:$PATH
+export PATH=./node_modules/.bin:/usr/local/bin:$PATH
 
 export WORKON_HOME=~/.virtualenvs
 
@@ -19,3 +19,6 @@ alias la='ls -ltraG'
 alias cdrepos='cd ~/repos/git/github'
 alias docker-rm-none='docker rmi $(docker images | grep "^<none>" | awk "{print $3}")'
 alias sync-garmin='~/scripts/sync_garmin.sh'
+
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"
