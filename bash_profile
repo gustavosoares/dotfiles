@@ -16,9 +16,15 @@ alias ls='ls -G'
 alias ll='ls -ltrG'
 alias la='ls -ltraG'
 
-alias cdrepos='cd ~/repos/git/github'
+alias cdrepos='cd ~/repos/git'
+alias cdgithubrepos='cd ~/repos/git/github'
 alias docker-rm-none='docker rmi $(docker images | grep "^<none>" | awk "{print $3}")'
+alias docker-rmi-dangling='docker rmi $(docker images --filter "dangling=true" -q --no-trunc)'
+alias drmae='docker rm $(docker ps -qa --no-trunc --filter "status=exited")'
+alias docker-ecr-login='eval $(aws ecr get-login)'
 alias sync-garmin='~/scripts/sync_garmin.sh'
+alias mysql-start='mysql.server start'
+alias mysql-stop='mysql.server stop'
 
 export NVM_DIR="$HOME/.nvm"
 . "/usr/local/opt/nvm/nvm.sh"
