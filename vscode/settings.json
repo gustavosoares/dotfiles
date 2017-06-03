@@ -12,6 +12,8 @@
         "-l"
     ],
     "window.zoomLevel": 1,
-    "workbench.colorTheme": "Visual Studio Light",
-    "terraform.formatOnSave": true
+    "workbench.colorTheme": "Default Light+",
+    "terraform.formatOnSave": true,
+    "python.linting.enabled": true,
+    "python.linting.pylintPath": "pylint"
 }
