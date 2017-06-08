@@ -15,5 +15,13 @@
     "workbench.colorTheme": "Default Light+",
     "terraform.formatOnSave": true,
     "python.linting.enabled": true,
-    "python.linting.pylintPath": "pylint"
+    "python.linting.pylintPath": "pylint",
+    "python.unitTest.unittestArgs": [
+        "-v",
+        "-s",
+        ".",
+        "-p",
+        "*_test.py"
+    ],
+    "python.unitTest.unittestEnabled": true   
 }
