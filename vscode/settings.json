@@ -24,6 +24,12 @@
         "-p",
         "*_test.py"
     ],
-    "python.unitTest.unittestEnabled": true,
+    "python.unitTest.pyTestArgs": [
+        "--exitfirst",
+        "--verbose"
+    ],    
+    "python.unitTest.pyTestEnabled": true,
+    "python.unitTest.unittestEnabled": false,
+    "python.unitTest.nosetestsEnabled": false, 
     "editor.minimap.enabled": true
 }
