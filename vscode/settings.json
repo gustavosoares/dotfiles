@@ -31,5 +31,6 @@
     "python.unitTest.pyTestEnabled": true,
     "python.unitTest.unittestEnabled": false,
     "python.unitTest.nosetestsEnabled": false, 
-    "editor.minimap.enabled": true
+    "editor.minimap.enabled": true,
+    "workbench.iconTheme":"vs-seti"
 }
