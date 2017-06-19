@@ -32,5 +32,6 @@
     "python.unitTest.unittestEnabled": false,
     "python.unitTest.nosetestsEnabled": false, 
     "editor.minimap.enabled": true,
-    "workbench.iconTheme":"vs-seti"
+    "workbench.iconTheme":"vs-seti",
+    "editor.renderWhitespace": "boundary"
 }
