@@ -12,7 +12,6 @@
         "-l"
     ],
     "window.zoomLevel": 1,
-    "workbench.colorTheme": "Default Light+",
     "terraform.formatOnSave": true,
     "python.linting.enabled": true,
     "python.linting.pylintArgs": ["--errors-only"],
@@ -33,5 +32,7 @@
     "python.unitTest.nosetestsEnabled": false, 
     "editor.minimap.enabled": true,
     "workbench.iconTheme":"vs-seti",
-    "editor.renderWhitespace": "boundary"
+    "editor.renderWhitespace": "boundary",
+    "go.lintOnSave": true
+
 }
