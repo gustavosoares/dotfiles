@@ -30,7 +30,7 @@
     "python.unitTest.pyTestEnabled": true,
     "python.unitTest.unittestEnabled": false,
     "python.unitTest.nosetestsEnabled": false, 
-    "editor.minimap.enabled": true,
+    "editor.minimap.enabled": false,
     "workbench.iconTheme":"vs-seti",
     "editor.renderWhitespace": "boundary",
     "go.lintOnSave": true
