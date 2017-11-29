@@ -13,6 +13,7 @@
     ],
     "window.zoomLevel": 1,
     "terraform.formatOnSave": true,
+    "python.pythonPath": "/usr/local/bin/python",
     "python.linting.enabled": true,
     "python.linting.pylintArgs": ["--errors-only"],
     "python.linting.pylintPath": "pylint",
@@ -34,5 +35,6 @@
     "workbench.iconTheme":"vs-seti",
     "editor.renderWhitespace": "boundary",
     "go.lintOnSave": true,
-    "git.enableSmartCommit": true
+    "git.enableSmartCommit": true,
+    "workbench.panel.location": "bottom"
 }
