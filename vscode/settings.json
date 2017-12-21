@@ -12,7 +12,7 @@
         "-l"
     ],
     "window.zoomLevel": 1,
-    "terraform.formatOnSave": true,
+    "terraform.format.enable": true,
     "python.linting.enabled": true,
     "python.linting.pylintArgs": ["--errors-only"],
     "python.linting.pylintPath": "pylint",
