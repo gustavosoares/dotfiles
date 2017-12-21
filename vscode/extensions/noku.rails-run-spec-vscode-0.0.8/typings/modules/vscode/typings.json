@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/Microsoft/vscode/98f24d947a56df2c1fb36465af92bc03b2813776/src/vs/vscode.d.ts",
+    "raw": "github:Microsoft/vscode/src/vs/vscode.d.ts#98f24d947a56df2c1fb36465af92bc03b2813776",
+    "typings": "https://raw.githubusercontent.com/Microsoft/vscode/98f24d947a56df2c1fb36465af92bc03b2813776/src/vs/vscode.d.ts"
+  }
+}

@@ -13,6 +13,7 @@
     ],
     "window.zoomLevel": 1,
     "terraform.format.enable": true,
+    "python.pythonPath": "/usr/local/bin/python",
     "python.linting.enabled": true,
     "python.linting.pylintArgs": ["--errors-only"],
     "python.linting.pylintPath": "pylint",
