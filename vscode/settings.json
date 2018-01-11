@@ -36,5 +36,7 @@
     "workbench.iconTheme":"vs-seti",
     "editor.renderWhitespace": "boundary",
     "editor.formatOnSave": true,
-    "git.enableSmartCommit": true
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "search.followSymlinks": false
 }
