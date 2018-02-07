@@ -32,6 +32,8 @@
     "python.unitTest.unittestEnabled": false,
     "python.unitTest.nosetestsEnabled": false, 
     
+    "go.formatTool": "gofmt",
+
     "editor.minimap.enabled": false,
     "workbench.iconTheme":"vs-seti",
     "editor.renderWhitespace": "boundary",
