@@ -28,8 +28,8 @@
         "--exitfirst",
         "--verbose"
     ],    
-    "python.unitTest.pyTestEnabled": true,
-    "python.unitTest.unittestEnabled": false,
+    "python.unitTest.pyTestEnabled": false,
+    "python.unitTest.unittestEnabled": true,
     "python.unitTest.nosetestsEnabled": false, 
     
     "go.formatTool": "gofmt",
@@ -40,5 +40,9 @@
     "editor.formatOnSave": true,
     "git.enableSmartCommit": true,
     "git.autofetch": true,
-    "search.followSymlinks": false
+    "search.followSymlinks": false,
+    "files.associations": {
+        "*.consul": "hcl"
+    },
+    "git.confirmSync": false
 }
