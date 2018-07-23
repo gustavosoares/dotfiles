@@ -12,12 +12,11 @@
         "-l"
     ],
     "window.zoomLevel": 1,
-    "terraform.format.enable": true,
     "python.venvPath": "~/.virtualenvs",
     "python.pythonPath": "/usr/local/bin/python",
     "python.linting.enabled": true,
     "python.linting.pylintArgs": ["--errors-only"],
-    "python.linting.pylintPath": "pylint",
+    "python.linting.pylintPath": "/usr/local/bin/pylint",
     "python.unitTest.unittestArgs": [
         "-v",
         "-s",
