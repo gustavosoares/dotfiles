@@ -11,26 +11,26 @@
     "terminal.integrated.shellArgs.osx": [
         "-l"
     ],
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 2,
     "python.venvPath": "~/.virtualenvs",
     "python.pythonPath": "/usr/local/bin/python",
     "python.linting.enabled": true,
     "python.linting.pylintArgs": ["--errors-only"],
     "python.linting.pylintPath": "/usr/local/bin/pylint",
-    "python.unitTest.unittestArgs": [
+    "python.testing.unittestArgs": [
         "-v",
         "-s",
         ".",
         "-p",
         "*_test.py"
     ],
-    "python.unitTest.pyTestArgs": [
+    "python.testing.pyTestArgs": [
         "--exitfirst",
         "--verbose"
     ],    
-    "python.unitTest.pyTestEnabled": false,
-    "python.unitTest.unittestEnabled": true,
-    "python.unitTest.nosetestsEnabled": false, 
+    "python.testing.pyTestEnabled": false,
+    "python.testing.unittestEnabled": true,
+    "python.testing.nosetestsEnabled": false, 
     
     "go.formatTool": "gofmt",
 
@@ -44,5 +44,12 @@
     "files.associations": {
         "*.consul": "hcl"
     },
-    "git.confirmSync": false
+    "git.confirmSync": false,
+    "atlascode.jira.workingSite": {
+        "baseUrlSuffix": "atlassian.net"
+    },
+    "yaml.schemas": {
+        "file:///Users/gus/.vscode/extensions/atlassian.atlascode-1.4.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    }
+    
 }
